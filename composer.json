@@ -9,14 +9,13 @@
         "issues": "https://github.com/php-an602/an602-prosemirror-richtext/issues?state=open",
         "forum": "https://community.metamz.network",
         "wiki": "https://community.metamz.network",
-        "source": "https://github.com/php-an602/an602-prosemirror-richtext"
+        "source": "https://github.com/php-an602/npm-asset"
     },
     "minimum-stability": "stable",
     "repositories": [
         {
             "type": "composer",
             "url": "https://asset-packagist.org",
-            "vendor-alias": "npm-asset/an602-prosemirror-richtext"
         }
     ],
     "config": {
