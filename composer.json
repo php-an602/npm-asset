@@ -1,0 +1,34 @@
+{
+    "name": "an602/npm-assets",
+    "description": "PHP-AN602 - NPM Assets Bundle",
+    "keywords": ["an602", "php-an602", "npm-assets", "yii2", "framework"],
+    "homepage": "https://www.metamz.network/",
+    "type": "project",
+    "license": "AGPL-3.0-only",
+    "support": {
+        "issues": "https://github.com/php-an602/an602-prosemirror-richtext/issues?state=open",
+        "forum": "https://community.metamz.network",
+        "wiki": "https://community.metamz.network",
+        "source": "https://github.com/php-an602/an602-prosemirror-richtext"
+    },
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org",
+            "vendor-alias": "npm-asset/an602-prosemirror-richtext"
+        }
+    ],
+    "config": {
+        "process-timeout": 1800,
+        "vendor-dir": "protected/vendor",
+        "sort-packages": true,
+        "fxp-asset": {
+            "enabled": false
+        },
+        "platform-check": false,
+        "platform": {
+            "php": "7.4"
+        }
+    }
+}
